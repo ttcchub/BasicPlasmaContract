@@ -1,12 +1,17 @@
-# Sample Hardhat Project
+### Простой Plasma-смарт-контракт
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## Как рабоатет?
+
+1. Деплой контракта Plasma
+
+2. Отправка депозита
+
+3. Отправка фиктивного блока (Plasma block)
+
+4. Вывод средств (exit)
+
+
+
 
 
 Структура .env 
